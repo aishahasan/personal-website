@@ -1,3 +1,3 @@
 # personal-website
 
-personal website made in HTML/CSS with some JS
+personal website made with HTML/CSS and some JS
