@@ -1,0 +1,221 @@
+
+body{
+	font-family: "Raleway", sans-serif;
+	background-color: white;
+	text-align: center;
+}
+
+header{
+    font-size: 80px;
+    font-weight: lighter;
+}
+/*
+@media screen and (max-width: 1020px) {
+  #container, #header, #content, #footer {
+    float: none;
+    width: auto;
+}
+*/
+
+#progressbar {
+  background-color: gray;
+  border-radius: 13px; /* (height of inner div) / 2 + padding */
+  padding: 3px;
+  width: 400px;
+}
+
+#progressbar > div {
+   background-color: #b0c4de;
+   width: 90%; /* Adjust with JavaScript */
+   height: 10px;
+   border-radius: 10px;
+}
+
+#progressbar2 {
+  background-color: gray;
+  border-radius: 13px; /* (height of inner div) / 2 + padding */
+  padding: 3px;
+  width: 400px;
+}
+
+#progressbar2 > div {
+   background-color: #b0c4de;
+   width: 75%; /* Adjust with JavaScript */
+   height: 10px;
+   border-radius: 10px;
+}
+
+#progressbar3 {
+  background-color: gray;
+  border-radius: 13px; /* (height of inner div) / 2 + padding */
+  padding: 3px;
+  width: 400px;
+}
+
+#progressbar3 > div {
+   background-color: #b0c4de;
+   width: 95%; /* Adjust with JavaScript */
+   height: 10px;
+   border-radius: 10px;
+}
+
+#progressbar4 {
+  background-color: gray;
+  border-radius: 13px; /* (height of inner div) / 2 + padding */
+  padding: 3px;
+  width: 400px;
+}
+
+#progressbar4 > div {
+   background-color: #b0c4de;
+   width: 20%; /* Adjust with JavaScript */
+   height: 10px;
+   border-radius: 10px;
+}
+
+#progressbar6 {
+  background-color: gray;
+  border-radius: 13px; /* (height of inner div) / 2 + padding */
+  padding: 3px;
+  width: 400px;
+}
+
+#progressbar6 > div {
+   background-color: #b0c4de;
+   width: 13%; /* Adjust with JavaScript */
+   height: 10px;
+   border-radius: 10px;
+}
+
+#progressbar5 {
+  background-color: gray;
+  border-radius: 13px; /* (height of inner div) / 2 + padding */
+  padding: 3px;
+  width: 400px;
+}
+
+#progressbar5 > div {
+   background-color: #b0c4de;
+   width: 25%; /* Adjust with JavaScript */
+   height: 10px;
+   border-radius: 10px;
+}
+
+
+.button{
+    background-color: #b0c4de;
+    border-radius: 50%;
+    color: #999999;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+    width: 110px;
+    height: 110px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: auto;
+    display: inline-block;
+}
+
+.button2{
+    color: #999999;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+    width: 110px;
+    height: 110px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: auto;
+
+}
+
+#content {
+    display: table;
+}
+ 
+    section{
+        display: table-cell;
+        width: 330px;
+        padding-right: 10px;
+        text-align: right;
+    }
+ 
+    aside {
+        padding-top: 25px;
+        display: table-cell;
+        width: 350px;
+        text-align: left;
+        padding-left: 40px;
+        margin-left:15em;
+        
+    }
+    
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+    
+/*
+section {
+    width:30%;
+    float:left;
+    display: block;
+}
+*/
+
+aside {
+  float: right;
+  margin: 0 1.5%;
+  width: 70%;
+  display: block;
+}
+
+.me{
+    margin-top: 50px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-bottom: 10px;
+}
+
+.small{
+    border-radius: 60%;
+    margin-top: 10px;
+    display: inline-block;
+    margin-right: 110px;
+    margin-bottom: 10px;
+}
+
+.top{
+    margin-right: 250px;
+    display: inline-block;
+}
+
+
+
+
+footer{
+    clear: both;
+    background-color: white;
+    color:black;
+    font-family: "Montserrat", sans-serif;
+    text-align: right;
+    font-size: 15px;
+    margin-top: 40px;
+    padding:15px;
+    line-height: 20px;
+    display: block;
+}

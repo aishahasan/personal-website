@@ -1,0 +1,66 @@
+*{
+  /** this code tells the browser to include the border in calculating an element's height and width. webkit, moz, and ms are specifications for chrome, mozilla firefox, and internet explore **/
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.row{
+  width: 100%;
+}
+.grid-1{
+  width: 8.33%;
+ 
+}
+.grid-2{
+  width: 16.67%;
+}
+.grid-3{
+  width: 25%;
+}
+.grid-4{
+  width: 31%;
+  
+}
+.grid-5{
+  width: 41.67%;
+  
+}
+.alignleft {
+	float: left;
+}
+.alignright {
+	float: right;
+}
+
+.grid-5b{
+  width: 41.67%;
+  display: inline-block;
+  
+}
+
+.grid-6{
+  width: 50%;
+  
+}
+.grid-7{
+  width: 58.33%;
+  
+}
+.grid-8{
+  width: 66.67%;
+}
+.grid-9{
+  width: 75%;
+}
+.grid-10{
+  width: 83.33%;
+}
+.grid-11{
+  width: 91.67%;
+  
+}
+.grid-12{
+  width: 100%;
+  
+}
